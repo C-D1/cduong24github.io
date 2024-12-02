@@ -1,0 +1,91 @@
+a, h1, h2, p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EEEEEE;
+  }
+  h2{
+    margin-bottom: 15px;
+  }
+  body{
+    background-color: #232931;
+  }
+  .nav-bar{
+    background-color: #393E46;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .logo{
+    color: #EEEEEE;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 70px;
+  }
+  .main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  .main-header{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 30px;
+  }
+  .main-content{
+    text-align: center;
+    font-size: 25px;
+  }
+  .nav-list{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    transition: opacity 0.3s;
+  }
+  .nav-list li{
+    display: inline;
+    line-height: 70px;
+    margin-left: 30px;
+    float: right;
+  }
+  .nav-list a{
+    color: #EEEEEE;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-list li a:hover, .logo:hover{
+    color: #4ECCA3;
+    transition: color 0.3s;
+  }
+
+  .divider{
+    background-color: #EEEEEE;
+    height: 8px;
+  }
+
+  .main-setion{
+    height: 400px;
+    background-color: gray;
+  }
+
+/* ethics page styling */
+.ethics-content{
+    margin: 100px;
+}
+.ethics-content p{
+    max-width: 1000px;
+}
+
+/* guidelines page styling */
+
+/* citations page styling */
+.citation-list{
+    text-align: center;
+}
+.citation-list ul li{
+    margin: 30px;
+    text-decoration: none;
+}
+.content-section{
+  margin-bottom: 150px;
+}
